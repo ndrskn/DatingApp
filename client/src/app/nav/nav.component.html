@@ -15,10 +15,10 @@
         </ul>
 
         <div class="dropdowm" *ngIf="loggedIn" dropdown>
-            <a class="dropdown-toogle text-light text-decoration-none" dropdownToggle>Welcome user</a>
-            <div class="dropdown-menu" *dropdownMenu=>
-                <a class="dropwdown-item">Edit Profile</a>
-                <a class="dropwdown-item" (click)="logout()">Logout</a>
+            <a class="dropdown-toggle text-light text-decoration-none" dropdownToggle>Welcome user</a>
+            <div class="dropdown-menu" *dropdownMenu>
+                <a class="dropdown-item">Edit Profile</a>
+                <a class="dropdown-item" (click)="logout()">Logout</a>
             </div>
         </div>
 
